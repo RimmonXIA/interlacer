@@ -5,6 +5,10 @@ numpy==1.26.3
 pandas==2.2.0
 Pillow==10.2.0
 scipy==1.12.0
-skimage==0.0
-tensorboard==2.15.1
 tensorflow==2.15.0
+scikit-image
+nibabel
+path.py
+jupyter
+ipykernel
+pybids
