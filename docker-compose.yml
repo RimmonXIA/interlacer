@@ -1,0 +1,14 @@
+services:
+  interlacer:
+    build: .
+    container_name: c_interlacer
+    stdin_open: true
+    tty: true
+    deploy:
+      resources:
+        limits:
+          cpus: '4.0'
+          memory: '4g'
+    volumes:
+      - ./:/code
+      # - $DATA_DIR:/tmp/app-data
